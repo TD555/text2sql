@@ -10,7 +10,7 @@ SQL Query Execution: Execute generated SQL queries against a database to validat
 BART Model Integration: Utilize the BART model, fine-tuned on a text-to-SQL dataset, for efficient query translation.
 # Requirements
 
-PyTorch,
+PyTorch
 
 Transformers library (Hugging Face)
 
