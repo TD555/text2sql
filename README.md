@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Text-to-SQL Conversion using BART Model
 Overview
 This project aims to convert natural language queries into SQL queries using the BART (Bidirectional and Auto-Regressive Transformers) model. By leveraging state-of-the-art natural language processing techniques, the model interprets user queries and generates corresponding SQL queries, facilitating efficient interaction with databases.
@@ -47,3 +48,6 @@ sql_query = tokenizer.decode(output_ids[0], skip_special_tokens=True)
 print("Generated SQL Query:", sql_query)
 Credits
 This project utilizes the Hugging Face Transformers library and was inspired by research in natural language processing and text-to-SQL conversion.
+=======
+# text2sql
+>>>>>>> 3f3266bd9a9c4de47f3fc83c66ad994f0120ed5d
