@@ -46,6 +46,7 @@ output_ids = model.generate(input_ids)
 
 Decode generated SQL query
 sql_query = tokenizer.decode(output_ids[0], skip_special_tokens=True)
+
 print("Generated SQL Query:", sql_query)
 # Credits
 This project utilizes the Hugging Face Transformers library and was inspired by research in natural language processing and text-to-SQL conversion.
